@@ -2,7 +2,7 @@
 name = "ord_subset"
 version = "3.1.2"
 authors = ["Emerentius"]
-edition = "2018"
+edition = "2024"
 license = "MIT/Apache-2.0"
 repository = "https://github.com/emerentius/ord_subset"
 documentation = "https://docs.rs/ord_subset/"

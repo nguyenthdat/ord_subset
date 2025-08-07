@@ -1,4 +1,4 @@
-#![cfg_attr(feature = "cargo-clippy", allow(float_cmp, match_wild_err_arm))]
+#[allow(clippy::float_cmp, clippy::eq_op)]
 extern crate core;
 extern crate ord_subset;
 use ord_subset::OrdSubset;

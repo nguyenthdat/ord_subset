@@ -51,6 +51,7 @@ impl OrdSubset for f32 {
     }
 }
 
+#[allow(dead_code)]
 trait EnsureOrd: Ord {}
 
 macro_rules! impl_for_ord {
@@ -120,6 +121,7 @@ macro_rules! tuple_impls {
     }
 }
 
+#[allow(unused_macros)]
 macro_rules! last_type {
     ($a:ident,) => { $a };
     ($a:ident, $($rest_a:ident,)+) => { last_type!($($rest_a,)+) };
